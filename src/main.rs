@@ -16,7 +16,7 @@ const HEIGHT: u16 = 128;
 struct Args {
     /// Path of directory containing images to process
     #[clap(short, long, default_value = "./captchas")]
-    dir: String,
+    input: String,
     /// Extension of images to process
     #[clap(short, long, default_value = "jpg")]
     ext: String,
@@ -35,7 +35,7 @@ fn main() {
     let args = Args::parse();
 
     let mut path = PathBuf::new();
-    path.push(args.dir);
+    path.push(args.input);
     path.push("(**/*)");
     path.set_extension(args.ext);
 

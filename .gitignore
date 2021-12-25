@@ -1,8 +1,6 @@
 /target
-/captchas
-/data
-/processed
 /training_1
+/captchas-backup
 *.py
 *.rar
 *.svg

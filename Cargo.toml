@@ -1,5 +1,5 @@
 [package]
-name = "captcha-solver"
+name = "margo-captcha-splitter"
 version = "0.1.0"
 edition = "2021"
 
