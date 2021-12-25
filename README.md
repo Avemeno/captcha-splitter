@@ -1,9 +1,9 @@
 # captcha-splitter
 ## About
-Convert captchas from this:
+Convert captchas from this:\
 ![captcha](./captchas/0.jpg)
-To this:
-![A](./processed/0-A.jpg) ![B](./processed/0-B.jpg) ![C](./processed/0-C.jpg)
+\To this:\
+![A](./processed/0-A.jpg) ![B](./processed/0-B.jpg) ![C](./processed/0-C.jpg)\
 ![D](./processed/0-D.jpg)  ![E](./processed/0-E.jpg) ![F](./processed/0-F.jpg)
 ## Installation
 
