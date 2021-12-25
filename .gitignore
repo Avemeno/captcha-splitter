@@ -1,0 +1,9 @@
+/target
+/captchas
+/data
+/processed
+/training_1
+*.py
+*.rar
+*.svg
+

@@ -1,0 +1,12 @@
+[package]
+name = "captcha-solver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+capturing-glob = "0.1.1"
+clap = { version = "3.0.0-rc.8", features = ["derive"] }
+image = "0.23.14"
+rayon = "1.5.1"
